@@ -77,6 +77,7 @@ plt.imshow(cm, interpolation='nearest', cmap=plt.cm.Blues)
 plt.title('Normalized confusion matrix')
 plt.colorbar()
 tick_marks = np.arange(2)
+plt.xticks(tick_marks, ['No', 'Yes'])
 plt.yticks(tick_marks, ['No', 'Yes'])
 
 thresh = cm.max() / 2.
