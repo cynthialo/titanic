@@ -101,5 +101,9 @@ X_test = df2.dropna(axis=0)
 
 X_test = pd.get_dummies(X_test,columns=['Sex'])
 
-print('Test labels')
-print(model.predict(X_test))
+prediction = pd.DataFrame(data=model.predict(X_test),
+                          index=X_test.index,
+                          columns=['Survived'])  
+
+print('Test predictions')
+print(prediction)
