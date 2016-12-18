@@ -11,7 +11,7 @@ Data science involves three main steps:
 * Data analytics
 
 The models in this repository include:
-* Logistic regression: [genderclasslogisticregressionmodel.py](genderclasslogisticregressionmodel.py)
+* Logistic regression: [genderclasslogisticregression.py](genderclasslogisticregression.py)
 
   A simple classification model to get started, using the passengers' socio-economic status, sex, and fare as the features.  Here, the model assumptions are: 
   * Passengers with incomplete data are removed 
